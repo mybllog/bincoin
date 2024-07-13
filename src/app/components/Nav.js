@@ -12,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="text-white font-san">
+    <div className="text-white font-san absolute top-0  right-0 w-screen">
       <header className="w-full  shadow-md">
         <div className="container mx-auto flex justify-between items-center py-4 px-4 md:px-8">
          

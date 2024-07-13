@@ -1,9 +1,10 @@
-"use client"
+"use client";
 import React from 'react';
 
 const TradingViewWidget = ({ src, height }) => {
   return (
-    <div className="tradingview-widget-container w-full py-2 text-white" data-aos="fade-up" style={{ height }}>
+    <div className=" w-full  " >
+      <div className='relative m-0 right-0 py-2 text-white' data-aos="fade-up" style={{ height }}>
       <iframe
         scrolling="no"
         allowTransparency="true"
@@ -22,6 +23,7 @@ const TradingViewWidget = ({ src, height }) => {
           Market Data
         </a>{' '}
         by TradingView
+      </div>
       </div>
     </div>
   );

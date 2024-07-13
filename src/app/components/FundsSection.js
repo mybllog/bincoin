@@ -6,62 +6,53 @@ const FundsSection = () => {
   return (
     <section className="funds py-12 text-white ">
       <div className="container mx-auto px-4">
-        <div className="section-intro text-center mb-12 ">
-          <h3 className="title  text-3xl font-bold opacity-0 visibility-hidden transform translate-y-2">
-            Allcoinvest TRADERS
-          </h3>
-          <div className="section-intro__description opacity-0 visibility-hidden transform translate-y-2 mt-4">
-            <p>
-              The best cryptocurrency developers work in our company. They have a wealth of experience and understanding of the crypto market behind them. They brought Allcoinvest to the world level of development.
-            </p>
-          </div>
-        </div>
-        <div className="funds__slider swiper-container">
-          <div className="swiper-wrapper flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
-            <div className="swiper-slide w-full md:w-1/3 opacity-0 visibility-hidden transform translate-y-8">
-              <div className="funds-item p-4 border rounded-lg shadow-lg ">
-                <div className="funds-item__icon mb-4">
-                  <img src="https://allcoinvest.com/temp/custom/assets/images/funds/1.png" alt="Unique Trading Bot" className="w-full" />
+       
+        <div className="">
+          <div className=" flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 text-center">
+            <div className=" w-8/12 transform translate-y-8">
+              <div className=" p-4  rounded-lg shadow-lg " style={{backgroundColor:'#213a3e'}}>
+                <div className=" mb-4 transform -translate-y-20 relative left-7">
+                  <img src="https://allcoinvest.com/temp/custom/assets/images/funds/1.png" alt="Unique Trading Bot" className="w-10/12" />
                 </div>
-                <h4 className="funds-item__title text-xl font-bold mb-2">UNIQUE TRADING BOT</h4>
-                <div className="funds-item__description">
+                <h4 className=" text-xl font-bold mb-2">UNIQUE TRADING BOT</h4>
+                <div className="">
                   <p>
                     Allcoinvest team of professionals has created a unique trading robot that makes profit at any stage of the market: rise or fall.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="swiper-slide w-full md:w-1/3 opacity-0 visibility-hidden transform translate-y-8">
-              <div className="funds-item p-4 border rounded-lg shadow-lg">
-                <div className="funds-item__icon mb-4">
-                  <img src="https://allcoinvest.com/temp/custom/assets/images/funds/2.png" alt="Stable and Automated Investment" className="w-full" />
+            <div className=" w-8/12 transform translate-y-8">
+              <div className=" p-4  rounded-lg shadow-lg " style={{backgroundColor:'#213a3e'}}>
+                <div className=" mb-4 transform -translate-y-20 relative left-7">
+                  <img src="https://allcoinvest.com/temp/custom/assets/images/funds/2.png" alt="Unique Trading Bot" className="w-9/12" />
                 </div>
-                <h4 className="funds-item__title text-xl font-bold mb-2">STABLE AND AUTOMATED INVESTMENT</h4>
-                <div className="funds-item__description">
+                <h4 className=" text-xl font-bold mb-2">UNIQUE TRADING BOT</h4>
+                <div className="">
                   <p>
-                    The robot is not human-related. And that is why all investments are reliable and completely safe.
+                    Allcoinvest team of professionals has created a unique trading robot that makes profit at any stage of the market: rise or fall.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="swiper-slide w-full md:w-1/3 opacity-0 visibility-hidden transform translate-y-8">
-              <div className="funds-item p-4 border rounded-lg shadow-lg">
-                <div className="funds-item__icon mb-4">
-                  <img src="https://allcoinvest.com/temp/custom/assets/images/funds/3.png" alt="The Experts Will Do Everything for You" className="w-full" />
+            <div className=" w-8/12 transform translate-y-8">
+              <div className=" p-4  rounded-lg shadow-lg " style={{backgroundColor:'#213a3e'}}>
+                <div className=" mb-4 transform -translate-y-20 justify-center relative left-7">
+                  <img src="https://allcoinvest.com/temp/custom/assets/images/funds/3.png" alt="Unique Trading Bot" className="w-9/12" />
                 </div>
-                <h4 className="funds-item__title text-xl font-bold mb-2">THE EXPERTS WILL DO EVERYTHING FOR YOU</h4>
-                <div className="funds-item__description">
+                <h4 className=" text-xl font-bold mb-2">UNIQUE TRADING BOT</h4>
+                <div className="">
                   <p>
-                    The highly professional Allcoinvest team controls all the processes of the trading robot around the clock. After investing, you will observe the growth of your capital in real time.
+                    Allcoinvest team of professionals has created a unique trading robot that makes profit at any stage of the market: rise or fall.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="funds__bottom text-center mt-8">
+        <div className="funds__bottom text-center mt-20">
           <a
-            className="btn btn--line-primary text-white bg-blue-600 px-6 py-3 rounded-md hover:bg-blue-500"
+            className="btn btn--line-primary text-white border border-green-600 text-xl font-bold px-6 py-3 rounded-md "
             href="https://account.allcoinvest.com/register"
           >
             INVEST WITH US AND GET STABLE INCOME
