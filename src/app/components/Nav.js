@@ -45,7 +45,7 @@ const Nav = () => {
             />
           </Link>
               <li><Link href="/statistic">Statistics</Link></li>
-              <li><Link href="https://account.allcoinvest.com/register">Registration</Link></li>
+              <li><Link href="/signup">Registration</Link></li>
               <li><Link href="/login">Login</Link></li>
             </ul>
           </nav>
