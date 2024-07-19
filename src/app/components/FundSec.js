@@ -5,6 +5,7 @@ import robot from '../assets/robot.png';
 import { Button } from '@mui/material';
 import ProfitCalculator from '../components/ProfitCalculate';
 import {Home,Lock,HeartBroken,AccountBoxSharp} from '@mui/icons-material';
+import Link from 'next/link';
 
 const FundSec = () => {
   return (
@@ -24,7 +25,7 @@ const FundSec = () => {
           <div className="flex flex-col justify-center text-center md:text-left">
             <h1 className="text-white font-bold text-4xl md:text-7xl">SAFE INVESTMENT WITH US</h1>
             <p className="text-white font-bold text-2xl md:text-4xl my-5">GET LIFETIME INCOME ON INVESTMENT</p>
-            <Button className="bg-green-300 to-lime-700 hover:bg-green-400 w-48 md:w-60 h-10 text-lg md:text-xl font-bold text-black">LOGIN/REGISTER</Button>
+            <Button className="bg-green-300 to-lime-700 hover:bg-green-400 w-48 md:w-60 h-10 text-lg md:text-xl font-bold text-black"><Link href="/signup">LOGIN/REGISTER</Link></Button>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-white my-10">
               <div className="p-2">
               <Lock />

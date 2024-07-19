@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/app/(DashboardLayout)/components/dashboard/YearlyBreakup.js", "src/app/(DashboardLayout)/components/dashboard/SalesOverview.js", "src/app/(DashboardLayout)/components/dashboard/RecentTransactions.js", "src/app/(DashboardLayout)/components/dashboard/ProductPerformance.js", "src/app/(DashboardLayout)/components/dashboard/MonthlyEarnings.js", "src/app/(DashboardLayout)/components/dashboard/Blog.js", "src/app/(DashboardLayout)/components/container/PageContainer.jsr/PageContainer.js"  ],
+, "../Modernize-Nextjs-Free/(DashboardLayout)/components/dashboard/YearlyBreakup.js", "../Modernize-Nextjs-Free/(DashboardLayout)/components/dashboard/SalesOverview.js", "../Modernize-Nextjs-Free/(DashboardLayout)/components/dashboard/RecentTransactions.js", "../Modernize-Nextjs-Free/(DashboardLayout)/components/dashboard/ProductPerformance.js", "../Modernize-Nextjs-Free/(DashboardLayout)/components/dashboard/MonthlyEarnings.js", "../Modernize-Nextjs-Free/(DashboardLayout)/components/dashboard/Blog.js", "../Modernize-Nextjs-Free/(DashboardLayout)/components/container/PageContainer.jsr/PageContainer.js"  ],
   "exclude": [
     "node_modules"
   ]
